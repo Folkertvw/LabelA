@@ -14,7 +14,7 @@ Om dit programma te runnen is python een vereiste, daarnaast dient de gebruiker 
 Nadat de packages zijn geïnstalleerd kan het programma worden gerunt in bijvoorbeeld PyCharm, door `__init__.py` in de map 'project > project' uit te voeren.
 
 ### Functionaliteit
-De klant (in deze toepassing een instantie van de class User, drie parameters: id, whishlist en name) kan producten aan zijn wishlist toevoegen doormiddel van de method: 'addToWishList'. Deze methode heeft één paramater: 'product'. De klant kan producten verwijderen met de methode 'deleteFromWishList', ook deze methode heeft één parameter, 'id'. Het verwijderen van een product gaat doormiddel van de id.
+De klant (in deze toepassing een instanties van de class User, drie parameters: id, whishlist en name) kan producten aan zijn wishlist toevoegen doormiddel van de method: 'addToWishList'. Deze methode heeft één paramater: 'product'. De klant kan producten verwijderen met de methode 'deleteFromWishList', ook deze methode heeft één parameter, 'id'. Het verwijderen van een product gaat doormiddel van de id.
 De methode 'chooseDeliveryDay' geeft de klant de mogelijkheid om een bezorgdag uit te kiezen, de dag wordt gekozen door middel van een getal, 1 = maandag, 2 = dinsdag etc. De methode 'order' geeft een overzicht van de bestele producten.
 De class 'Product' heeft drie paramters: id, name en price. Doormiddel van instaties van de class product kunnen producten worden toegevoegd in de 'wishlist[]' van instanties van de class User.
 Met behulp van de volgende for loop worden het winkelmandje van de klant getoond:
